@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'Instagram'; 
+	src: local('Instagram'),
+		url(/fonts/proximanova_regular.ttf); 
+}
+
+.block1{
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 5px;
+    border-right: 2px solid #E3E3E3;
+}
+
+.block2{
+    display:inline-block;
+    vertical-align: top;
+    width: 79%;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 60%;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}    
+
+.text0{
+    font-family: 'Instagram';
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+.text1{
+    font-family: 'Instagram';
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.text2{
+    font-family: 'Instagram';
+    font-weight: 600;
+    color: #1A6DAF;
+    font-size: 22px;
+}
+
+.myava{
+    width: 20%;
+    padding: 10px 20px;
+    display:inline-block;
+}
+
+.block3{
+    display:inline-block; 
+    vertical-align: top;
+    width: 25%;
+    margin: auto;
+}
+
+.block4{
+    display:inline-block; 
+    vertical-align: top;
+    width: 10%;
+}
+
+.block5{
+    display: block;
+    margin-left: auto;
+    width: 10%;   
+}
+.block6{
+      
+}
+
+
+.ava{
+    display:inline-block; 
+    vertical-align: top;
+    margin-top: 10px;
+    width: 20%; 
+}

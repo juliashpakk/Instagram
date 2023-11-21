@@ -1,0 +1,121 @@
+input::-moz-placeholder {
+  color: #a9d1f3;
+}
+
+input::placeholder {
+  color: #a9d1f3;
+}
+
+@font-face {
+  font-family: "Instagram";
+  src: local("Instagram"), url(/fonts/proximanova_regular.ttf);
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 15%;
+}
+
+.form {
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+  width: 40%;
+  background-color: #1A6DAF;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.text0 {
+  font-family: "Instagram";
+  color: white;
+  font-size: 22px;
+}
+
+.text1 {
+  font-family: "Instagram";
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+}
+
+input {
+  width: 90%;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #1A6DAF;
+  border: 2px solid rgb(255, 255, 255);
+  border-width: 2px;
+  height: 25px;
+  color: white;
+  font-family: "Instagram";
+  outline: none;
+}
+input:focus {
+  border: 3px solid #a9d1f3;
+}
+input:hover {
+  border: 3px solid #25ABBE;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+}
+
+a {
+  color: #a9d1f3;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px 25px;
+  border: 4px solid #25ABBE;
+  background-color: #25ABBE;
+  color: white;
+  font-family: "Instagram";
+  font-size: 18px;
+  margin-top: 5px;
+}
+button:hover {
+  background-color: white;
+  color: #1A6DAF;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .form {
+    width: 80%;
+  }
+  img {
+    width: 35%;
+  }
+}
+@media (min-width: 320px) and (max-width: 599px) {
+  .form {
+    width: 95%;
+  }
+  img {
+    width: 35%;
+  }
+  .text0 {
+    font-size: 18px;
+  }
+  .text1 {
+    font-size: 13px;
+  }
+  button {
+    font-size: 13px;
+  }
+  input::-moz-placeholder {
+    color: #a9d1f3;
+    font-size: 12px;
+  }
+  input::placeholder {
+    color: #a9d1f3;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=main.css.map */
